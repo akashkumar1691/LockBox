@@ -7,6 +7,8 @@ This program allows users to create accounts and create sharable text documents.
 ## Security Features
 We assume the server, known as the DataStore, is malicious such that any information stored in the datastore is not able to be read or tampered with without detection. Furthermore, since the datastore is accesible to users, we cryptographically secured the documents such that when a document is unshared with an individual, they are also assumed to be malicious and are not able to surmise anything about future edits to the document.
 
+Check out [`designDoc.pdf`](designDoc.pdf) for more info regarding the structure of the cryptographic scheme
+
 ## Using the Program
 All available methods, along with descriptions can be found in [`client/client.go`](client/client.go).
 
