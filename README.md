@@ -1,5 +1,5 @@
 # LockBox
-An End-To-End encrypted file sharing system similar to Google Docs or Dropbox, but with secured with cryptography such that the server cannot view or tamper with the data
+An End-To-End encrypted file sharing system similar to Google Docs or Dropbox, but secured with cryptography such that the server cannot view or tamper with the data
 
 ## Features
 This program allows users to create accounts and create sharable text documents. These documents can be edited by anyone who it is shared with. Those who the document is share with can share with others, and the owner can always unshare with anybody they choose. 
